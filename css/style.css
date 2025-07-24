@@ -25,4 +25,6 @@
       width: 60px;
       text-align: center;
     }
-  
+   html {
+  scroll-behavior: smooth;
+}
