@@ -116,4 +116,9 @@ document.addEventListener('DOMContentLoaded', function () {
     const input = button.closest('.card').querySelector('.quantity-input');
     input.value = 1;
   }
-
+ AOS.init({
+    duration: 800,
+    easing: 'ease-in-out',
+    once: false, // animation occurs only once
+    mirror: false
+  });
